@@ -1,0 +1,79 @@
+body {
+			font-family: arial;
+		}
+
+		div{
+
+			width: 600px;
+		}
+
+		header{
+
+			text-align: centre;
+			width: 100%;
+			display: block;
+		}
+
+		img {
+
+			border-radius: 10px;
+			margin-left: auto;
+			margin-right: auto;
+			width: 100px;
+			display: block;
+
+		}
+
+		article {
+			width: 600px;
+			background: #ccc;
+			padding: 20px;
+			border-radius:10px;
+			margin: 30px auto;
+        }
+
+        h2{
+        	    	border-bottom: 1px solid black;
+        }
+		
+
+
+		section:after { 
+   		content: "."; 
+   		visibility: hidden; 
+   		display: block; 
+   		height: 0; 
+   		clear: both;
+}
+
+		
+
+		.date {
+
+			float:left;
+			width:70px;
+			background-color: #fff;
+			border-radius: 5px;
+			clear: both;
+
+		}
+
+		.content {
+
+			width:500px;
+			float: right;
+			background-color: #ff3333;
+			border-radius: 5px;
+
+		}
+
+		.date,.content{
+
+			margin-bottom: 20px;
+			padding-top: 2px;
+			padding-bottom: 2px;
+
+		}
+
+
+		</style>
