@@ -3,46 +3,115 @@
 
 	<head>
 		<title> My Resume </title>
+
+		<style> 
+		
+		body {
+			font-family: arial;
+		}
+
+		div{
+
+			width: 600px;
+		}
+
+		img {
+
+			border-radius: 10px;
+			margin-left: auto;
+			margin-right: auto;
+			width: 100px;
+
+		}
+
+		article {
+			width: 600px;
+			background: #ccc;
+			padding: 20px;
+			border-radius:10px;
+			margin: 30px auto;
+        }
+
+        h2{
+        	    	border-bottom: 1px solid black;
+        }
+		
+
+
+		section:after { 
+   		content: "."; 
+   		visibility: hidden; 
+   		display: block; 
+   		height: 0; 
+   		clear: both;
+}
+
+		
+
+		.date {
+
+			float:left;
+			width:70px;
+			background-color: #fff;
+			border-radius: 5px;
+			clear: both;
+
+		}
+
+		.content {
+
+			width:500px;
+			float: right;
+			background-color: #ff3333;
+			border-radius: 5px;
+
+		}
+
+		.date,.content{
+
+			margin-bottom: 20px;
+			padding-top: 2px;
+			padding-bottom: 2px;
+
+		}
+
+
+		</style>
 	</head>
 
 	<body>
-
+<article>
 <header>
-
-
 FLAT 2 SLYVAN COURT  .  145A ABBEY ROAD  .  LONDON  .  NW6 4SP
 PHONE 07761821663  .  E-MAIL tim.c.knowles@gmail.com 
+	<div>
+	<img src="./image.jpg" alt="My photo" />
+	</div>
 
-<h1>
-	Dr TIM KNOWLES 
-	MBChB (Hons) BSc (Hons)
-<img src="./image.jpg" alt="My photo" />
-</h1>
+	<h1>
+		Dr TIM KNOWLES 
+		MBChB (Hons) BSc (Hons)
+		
+	</h1>
 
-<h2>CURRICULUM VITAE</h2>
-
+	<h1>CURRICULUM VITAE</h1>
 </header>
 
 <section>
-
-<h2>CURRENT POSITION</h2>
-
-<div class="date"> 2012 - present</div>
-<div class="content">Cardiology Teaching Fellow: Royal Brompton &amp; Harefield NHS Trust</div>
-
+	<h2>CURRENT POSITION</h2>
+	<div class="date"> 2012 - present</div>
+	<div class="content">Cardiology Teaching Fellow: Royal Brompton &amp; Harefield NHS Trust</div>
 </section>
 
 <section>
+	<h2>PREVIOUS POSTS</h2>
 
-<h2>PREVIOUS POSTS</h2>
-
-<div class="date">2011-2012 </div>
+	<div class="date">2011-2012 </div>
 	<div class="content">Academic Foundation Year 2 Doctor: Imperial College Healthcare NHS Trust Hammersmith Hospital:  Acute Medicine, Renal Medicine, Department for Health Informatics Directorate</div>
 
-<div class="date">2010-2011</div>
+	<div class="date">2010-2011</div>
 	<div class="content">Foundation Year 1 Doctor: Mid Essex Hospitals NHS Trust
 	Broomfield Hospital: Gastroenterology, Upper GI surgery and Care of the Elderly</div>
-
 </section>
 
 <section>
@@ -192,7 +261,6 @@ Core skills: per UK Foundation Programme Curriculum www.foundationprogramme.nhs.
 </section>
 
 
-
 <section>
 
 <h2>REFERENCES</h2>
@@ -200,6 +268,8 @@ Core skills: per UK Foundation Programme Curriculum www.foundationprogramme.nhs.
 Available on request
 
 </section>
+
+</article>
 
 </body>
 
